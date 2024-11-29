@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".wallet.ui.cardtransactiondetail.CardTransactionDetailActivity">
+
+    <include
+        android:id="@+id/includeToolbar"
+        layout="@layout/include_toolbar" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/includeToolbar">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/tvCardTransactionDetailAmountTitle"
+                style="@style/TextView.SemiBold.12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Payment Received" />
+
+            <TextView
+                android:id="@+id/tvCardTransactionDetailAmount"
+                style="@style/TextView.SemiBold.20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvCardTransactionDetailAmountTitle"
+                tools:text="$ 150,000.00" />
+
+            <TextView
+                android:id="@+id/tvCardTransactionDetailDateTime"
+                style="@style/TextView.Regular.10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvCardTransactionDetailAmount"
+                tools:text="20 Mar 2024, 12:30 PM" />
+
+            <ImageView
+                android:id="@+id/ivCardTransactionDetailStatus"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="ContentDescription"
+                tools:src="@drawable/ic_transaction_in" />
+
+            <TextView
+                android:id="@+id/tvCardTransactionDetailPaymentTitle"
+                style="@style/TextView.SemiBold.10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@color/green_50"
+                android:padding="@dimen/_7sdp"
+                android:text="@string/payment_details"
+                android:textAllCaps="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvCardTransactionDetailDateTime" />
+
+            <TextView
+                android:id="@+id/tvCardTransactionDetailBankNameTitle"
+                style="@style/TextView.Regular.12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:paddingEnd="@dimen/_5sdp"
+                android:text="@string/paid_to"
+                android:textColor="@color/blue_gray_800"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvCardTransactionDetailPaymentTitle" />
+
+            <TextView
+                android:id="@+id/tvCardTransactionDetailBankName"
+                style="@style/TextView.Regular.12"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:gravity="end"
+                android:paddingStart="@dimen/_5sdp"
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/tvCardTransactionDetailBankNameTitle"
+                app:layout_constraintTop_toBottomOf="@id/tvCardTransactionDetailPaymentTitle"
+                tools:text="Jane’s Café" />
+
+            <TextView
+                android:id="@+id/tvCardTransactionDetailCardNoTitle"
+                style="@style/TextView.Regular.12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:paddingEnd="@dimen/_5sdp"
+                android:text="@string/card_number"
+                android:textColor="@color/blue_gray_800"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvCardTransactionDetailBankNameTitle" />
+
+            <TextView
+                android:id="@+id/tvCardTransactionDetailCardNo"
+                style="@style/TextView.Regular.12"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:gravity="end"
+                android:paddingStart="@dimen/_5sdp"
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/tvCardTransactionDetailCardNoTitle"
+                app:layout_constraintTop_toBottomOf="@id/tvCardTransactionDetailBankName"
+                tools:text="****4589125" />
+
+            <TextView
+                android:id="@+id/tvCardTransactionDetailTransactionIdTitle"
+                style="@style/TextView.Regular.12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:paddingEnd="@dimen/_5sdp"
+                android:text="@string/transaction_id"
+                android:textColor="@color/blue_gray_800"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvCardTransactionDetailCardNoTitle" />
+
+            <ImageView
+                android:id="@+id/ivCardTransactionDetailsCopy"
+                android:layout_width="@dimen/_10sdp"
+                android:layout_height="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:src="@drawable/ic_copy"
+                app:layout_constraintStart_toEndOf="@id/tvCardTransactionDetailTransactionIdTitle"
+                app:layout_constraintTop_toBottomOf="@id/tvCardTransactionDetailCardNoTitle"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/tvCardTransactionDetailTransactionId"
+                style="@style/TextView.Regular.12"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:gravity="end"
+                android:paddingStart="@dimen/_5sdp"
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/ivCardTransactionDetailsCopy"
+                app:layout_constraintTop_toBottomOf="@id/tvCardTransactionDetailCardNo"
+                tools:text="****78569" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/actionResetMPin"
+        android:title="@string/reset_mpin"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/actionResetPassword"
+        android:title="@string/reset_password"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/actionLogout"
+        android:title="@string/logout"
+        app:showAsAction="never" />
+</menu>

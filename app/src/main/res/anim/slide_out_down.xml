@@ -1,0 +1,8 @@
+<!-- res/anim/slide_out_down.xml -->
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shareInterpolator="false">
+    <translate
+        android:fromYDelta="0%"
+        android:toYDelta="100%"
+        android:duration="300"/>
+</set>

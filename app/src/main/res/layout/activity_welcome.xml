@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background_layer"
+    tools:context=".wallet.ui.welcome.WelcomeActivity">
+
+    <ImageView
+        android:id="@+id/ivWelcome"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:src="@drawable/ic_wallet_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/tvWelcomeTitle"
+        style="@style/TextView.SemiBold.14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:gravity="center"
+        android:letterSpacing="0.1"
+        android:text="@string/concept_walk_through_application"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/ivWelcome" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvWelcomeDivider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginHorizontal="@dimen/_70sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@color/white"
+        app:cardCornerRadius="@dimen/_30sdp"
+        app:layout_constraintTop_toBottomOf="@id/tvWelcomeTitle" />
+
+    <TextView
+        android:id="@+id/tvWelcomeDescription"
+        style="@style/TextView.Regular.12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:gravity="center"
+        android:letterSpacing="0.1"
+        android:text="@string/welcome_to_the_wallet_walk_through_application_this_concept_app_has_been_built_to_give_you_a_glipse_into_the_exciting_potential_of_the_wallet_ecosystem"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/cvWelcomeDivider" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btWelcomeGetStarted"
+        style="@style/Button.Medium.12"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_15sdp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/get_started"
+        android:textAllCaps="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,187 @@
+{
+  "project_info": {
+    "project_number": "526099527157",
+    "firebase_url": "https://moveit-demo-3ab77-default-rtdb.firebaseio.com",
+    "project_id": "moveit-demo-3ab77",
+    "storage_bucket": "moveit-demo-3ab77.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526099527157:android:d60def1792f47d72385cbc",
+        "android_client_info": {
+          "package_name": "com.learning.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "526099527157-m4o033va6lvi99g1pijobv2jbb51o08h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.learning.android",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "526099527157-nlmf8ibch5m5fnqumhi9p9o5fpf79qrj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDh0z5D2pHWQ5XLi-mI9gtGAfyR_1yPGO0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "526099527157-gkrqqobi7p745tursr12h1hu4rdg097h.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "526099527157-5jhh3abncb3117vsto8ogesmhq2voqfo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.f-plugins"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526099527157:android:d60def1792f47d72385cbc",
+        "android_client_info": {
+          "package_name": "com.example.boat_shop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "526099527157-m4o033va6lvi99g1pijobv2jbb51o08h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.boat_shop",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "526099527157-nlmf8ibch5m5fnqumhi9p9o5fpf79qrj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDh0z5D2pHWQ5XLi-mI9gtGAfyR_1yPGO0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "526099527157-gkrqqobi7p745tursr12h1hu4rdg097h.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "526099527157-5jhh3abncb3117vsto8ogesmhq2voqfo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.f-plugins"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526099527157:android:f88bad35779cf3df385cbc",
+        "android_client_info": {
+          "package_name": "com.example.moveit_demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "526099527157-4p0oinagn74v2l4f4opulcl1pd8irc4i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.moveit_demo",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "526099527157-nlmf8ibch5m5fnqumhi9p9o5fpf79qrj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDh0z5D2pHWQ5XLi-mI9gtGAfyR_1yPGO0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "526099527157-gkrqqobi7p745tursr12h1hu4rdg097h.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "526099527157-5jhh3abncb3117vsto8ogesmhq2voqfo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.f-plugins"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526099527157:android:997a0b795a6458fa385cbc",
+        "android_client_info": {
+          "package_name": "za.linxsystem.template"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "526099527157-ef6n9l9oat2nm6elgg93oiipmlsbupjo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "za.linxsystem.template",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "526099527157-nlmf8ibch5m5fnqumhi9p9o5fpf79qrj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDh0z5D2pHWQ5XLi-mI9gtGAfyR_1yPGO0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "526099527157-gkrqqobi7p745tursr12h1hu4rdg097h.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "526099527157-5jhh3abncb3117vsto8ogesmhq2voqfo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.f-plugins"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

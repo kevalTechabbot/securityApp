@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Add a button for each setting -->
+        <Button
+            android:id="@+id/btn_wifi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wi-Fi Settings" />
+
+        <Button
+            android:id="@+id/btn_bluetooth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bluetooth Settings" />
+
+        <Button
+            android:id="@+id/btn_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Location Settings" />
+
+        <Button
+            android:id="@+id/btn_airplane"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Airplane Mode Settings" />
+
+        <Button
+            android:id="@+id/btn_data_usage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data Usage Settings" />
+
+        <Button
+            android:id="@+id/btn_display"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Display Settings" />
+
+        <Button
+            android:id="@+id/btn_battery_optimization"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Battery Optimization Settings" />
+
+        <Button
+            android:id="@+id/btn_application"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Application Settings" />
+
+        <Button
+            android:id="@+id/btn_notification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notification Settings" />
+
+        <Button
+            android:id="@+id/btn_security"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Security Settings" />
+
+        <Button
+            android:id="@+id/btn_system"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="System Settings" />
+
+        <Button
+            android:id="@+id/btn_developer_options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Developer Options" />
+
+        <Button
+            android:id="@+id/btn_sound"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sound Settings" />
+
+        <Button
+            android:id="@+id/btn_date_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date and Time Settings" />
+
+        <Button
+            android:id="@+id/btn_brightness"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Brightness Settings" />
+
+        <Button
+            android:id="@+id/btn_accessibility"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Accessibility Settings" />
+
+        <Button
+            android:id="@+id/btn_storage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Storage Settings" />
+
+        <Button
+            android:id="@+id/btn_language"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Language and Input Settings" />
+
+        <Button
+            android:id="@+id/btn_vpn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VPN Settings" />
+
+        <Button
+            android:id="@+id/btn_cast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cast Settings" />
+
+        <Button
+            android:id="@+id/btn_print"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Print Settings" />
+
+        <Button
+            android:id="@+id/btn_usage_access"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Usage Access Settings" />
+
+        <Button
+            android:id="@+id/btn_battery_saver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Battery Saver Settings" />
+
+        <Button
+            android:id="@+id/btn_overlay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Overlay Settings" />
+
+        <Button
+            android:id="@+id/btn_notification_listener"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notification Listener Settings" />
+
+        <Button
+            android:id="@+id/btn_do_not_disturb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Do Not Disturb Settings" />
+
+        <Button
+            android:id="@+id/btn_mobile_network"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mobile Network Settings" />
+
+        <Button
+            android:id="@+id/btn_data_roaming"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data Roaming Settings" />
+
+        <Button
+            android:id="@+id/btn_background_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Background Data Settings" />
+
+        <Button
+            android:id="@+id/btn_app_battery_optimization"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="App Battery Optimization Settings" />
+
+        <Button
+            android:id="@+id/btn_app_usage_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="App Usage Data Settings" />
+
+        <Button
+            android:id="@+id/btn_device_admin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Device Admin Settings" />
+
+        <Button
+            android:id="@+id/btn_app_permissions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="App Permissions Settings" />
+
+        <Button
+            android:id="@+id/btn_write_settings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Write Settings Permission" />
+
+        <Button
+            android:id="@+id/btn_notification_policy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notification Policy Access Settings" />
+
+        <Button
+            android:id="@+id/btn_ignore_background_data_restriction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IGNORE BACKGROUND DATA RESTRICTIONS" />
+
+        <Button
+            android:id="@+id/btn_sim_lock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIM lock" />
+
+        <Button
+            android:id="@+id/btn_notification_shade_on"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notification Shade Start" />
+
+        <Button
+            android:id="@+id/btn_notification_shade_off"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notification Shade Stop" />
+
+    </LinearLayout>
+</ScrollView>
